@@ -3008,6 +3008,9 @@
     <style name="SplashScreen_SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowAnimationStyle">@style/SplashScreen_SplashAnimation</item>
     </style>
+    <style name="SplashStatusBarTheme" parent="SplashScreen_SplashTheme">
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/background_splash</item>
         <item name="android:statusBarColor">@color/blue</item>

@@ -5,10 +5,12 @@ com/zwallet/ReactNativeFlipper.java
  com.zwallet.ReactNativeFlipper$1
  com.zwallet.ReactNativeFlipper$2
  com.zwallet.ReactNativeFlipper$2$1
-com/facebook/react/PackageList.java
- com.facebook.react.PackageList
 com/zwallet/MainApplication.java
  com.zwallet.MainApplication
  com.zwallet.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/zwallet/SplashActivity.java
+ com.zwallet.SplashActivity
 com/zwallet/MainActivity.java
  com.zwallet.MainActivity

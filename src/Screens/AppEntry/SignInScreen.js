@@ -7,11 +7,9 @@ import {
     TouchableOpacity, KeyboardAvoidingView, TouchableOpacityBase,
 } from 'react-native';
 
-import Icon from 'react-native-vector-icons/EvilIcons'
-import AsyncStorage from '@react-native-async-storage/async-storage'
-import FBLogin from '../Components/FacebookLogin'
+//import AsyncStorage from '@react-native-async-storage/async-storage'
 
-import Loader from '../Components/Loader';
+import Loader from '../Components/LoaderAnimated';
 
 const SignInScreen = ({props}) => {
     const [userEmail, setUserEmail] = useState('');
@@ -37,7 +35,7 @@ const SignInScreen = ({props}) => {
                 <View>
                     <KeyboardAvoidingView enabled>
                         <View style = {{alignItems: 'center'}}>
-                            <Image style = {styles.appLogo} source = {require('../../assets/Image/appName.png')} />
+                            <Image style = {styles.appLogo} source = {require('../../assets/Image/app_name.png')} />
                         </View>
                         <Text style = {styles.welcome}>Welcome</Text>
                         <Text style = {styles.pageName}>Sign In</Text>

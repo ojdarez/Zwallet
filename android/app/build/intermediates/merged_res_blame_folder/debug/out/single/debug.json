@@ -32,6 +32,10 @@
         "source": "C:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_name.png.flat",
+        "source": "C:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\src\\main\\res\\drawable\\app_name.png"
+    },
+    {
         "merged": "C:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_ic_launcher.png.flat",
         "source": "C:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\src\\main\\res\\mipmap-ldpi\\ic_launcher.png"
     },
@@ -46,10 +50,6 @@
     {
         "merged": "C:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_name.PNG.flat",
-        "source": "C:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\src\\main\\res\\drawable\\app_name.PNG"
     },
     {
         "merged": "C:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_launch_screen.xml.flat",

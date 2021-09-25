@@ -5,9 +5,10 @@
         android:drawable="@color/blue"/>
 
     <item
-        android:width="200dp"
-        android:height="200dp"
         android:drawable="@drawable/app_name"
-        android:gravity="center" />
+        android:height="200dp"
+        android:width="200dp"
+        android:gravity="center"
+        />
 
 </layer-list>

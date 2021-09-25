@@ -1,13 +1,13 @@
 import React from 'react';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/Ionicons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import HomeScreen from './TabNavs/HomeScreen';
-import ManageScreen from './TabNavs/ManageScreen';
-import InsightsScreen from './TabNavs/InsightsScreen';
+import HomeScreen from '../TabNavs/HomeScreen';
+import ManageScreen from '../TabNavs/Manage';
+import InsightsScreen from '../TabNavs/Insights';
 
 const BottomTab = createBottomTabNavigator();
 
@@ -23,7 +23,7 @@ const TabNavigationRoutes = () => {
                 tabBarIcon: ({ focused, color, size }) => {
                     if (route.name === 'Home') {
                         return (
-                            <Ionicons
+                            <Icon
                                 name={focused ? 'ios-home-outline' : 'md-home'}
                                 size={size}
                                 color={focused ? Zest_Purple : Zest_Black}

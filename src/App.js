@@ -9,22 +9,22 @@ import {createStackNavigator} from '@react-navigation/stack';
 //import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import SplashScreen from 'react-native-splash-screen';
-import SignInScreen from './Screen/AppEntry/SignInScreen';
-import SignUpScreen from './Screen/AppEntry/SignUpScreen';
-import TabNavigationRoutes from './Screen/TabNavigationRoutes';
+import SignInScreen from './Screens/AppEntry/SignInScreen';
+import SignUpScreen from '../src/Screens/AppEntry/SignUpScreen'; 
+import TabNavigationRoutes from './Screens/Navs/TabNavigationRoutes';
 
 
 enableScreens(true);
 const Stack = createStackNavigator();
 
-const routeNav = async () => {
-  try {
-    const jsonValue = await AsyncStorage.getItem('@user_id')
-    return jsonValue != null ? "TabNavigationRoutes" : "Auth";
-  } catch(e) {
-    console.log("Can't route after splash screen!")
-  }
-}
+// const routeNav = async () => {
+//   try {
+//     const jsonValue = await AsyncStorage.getItem('@user_id')
+//     return jsonValue != null ? "TabNavigationRoutes" : "Auth";
+//   } catch(e) {
+//     console.log("Can't route after splash screen!")
+//   }
+// }
 
 
 const Auth = () => {
@@ -55,18 +55,18 @@ const Auth = () => {
     </Stack.Navigator>
   );
 };
-const splash = () => {
-  return componentDidMount = () => {
-    SplashScreen.hide()
-  };
-}
+// const splash = () => {
+//   return componentDidMount = () => {
+//     SplashScreen.hide()
+//   };
+// }
 const App = () => {
   useEffect (() => {
-    splash();
+    SplashScreen.hide()
   }, []);
   
   return (
-    <NavigationContainer initialRouteName = {routeNav()} >
+    <NavigationContainer initialRouteName = 'Auth' >
       <Stack.Navigator> 
         {/* Auth Navigator: Include Login and Signup */}
         <Stack.Screen
