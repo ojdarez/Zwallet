@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { View, Text, TouchableOpacity } from 'react-native';
@@ -13,7 +13,7 @@ const BottomTab = createBottomTabNavigator();
 
 const TabNavigationRoutes = () => {
     const Zest_Blue = "#2196f3"
-    const Zest_Black = "#F0F0"
+    const Zest_Silver = "#C0C0C0"
     const Zest_Purple = "#219"
     
     return (
@@ -23,10 +23,10 @@ const TabNavigationRoutes = () => {
                 tabBarIcon: ({ focused, color, size }) => {
                     if (route.name === 'Home') {
                         return (
-                            <Icon
+                            <Ionicons
                                 name={focused ? 'ios-home-outline' : 'md-home'}
                                 size={size}
-                                color={focused ? Zest_Purple : Zest_Black}
+                                color={focused ? Zest_Purple : Zest_Silver}
                             />
                         );
                     } else if (route.name === 'Manage') {
@@ -34,7 +34,7 @@ const TabNavigationRoutes = () => {
                             <MaterialCommunityIcons
                                 name={focused ? 'file-key' : 'file-key-outline'}
                                 options={{ tabBarBadge: 3 }}
-                                color={focused ? Zest_Blue : Zest_Black}
+                                color={focused ? Zest_Blue : Zest_Silver}
                                 size={size}
                             />
                         );
@@ -42,7 +42,7 @@ const TabNavigationRoutes = () => {
                         return (
                             <MaterialIcons
                                 name={focused ? 'insights' : 'insights'}
-                                color={focused ? Zest_Blue : Zest_Black}
+                                color={focused ? Zest_Blue : Zest_Silver}
                                 size={size}
                             />
                         );
