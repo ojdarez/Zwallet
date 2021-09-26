@@ -9,81 +9,84 @@
 9        android:targetSdkVersion="30" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:5:5-77
-11-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:5:22-75
+11-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:5:5-77
+11-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:4:5-67
-12-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:4:22-64
+12-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.93.0] C:\Users\JOJ_MSFT\.gradle\caches\transforms-3\8cf55bdce16a002612f05f30a64a017a\transformed\jetified-flipper-0.93.0\AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.93.0] C:\Users\JOJ_MSFT\.gradle\caches\transforms-3\8cf55bdce16a002612f05f30a64a017a\transformed\jetified-flipper-0.93.0\AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:7:5-37:19
-16        android:name="com.zwallet.MainApplication"
-16-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:8:7-38
-17        android:allowBackup="false"
-17-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:12:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.6.0] C:\Users\JOJ_MSFT\.gradle\caches\transforms-3\d9b71328e8ba86dc125344804cb6eb44\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:10:7-41
-21        android:label="@string/app_name"
-21-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:9:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:11:7-52
-23        android:theme="@style/AppTheme"
-23-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:13:7-38
-24        android:usesCleartextTraffic="true" >
-24-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\debug\AndroidManifest.xml:8:9-44
-25        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-25-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\debug\AndroidManifest.xml:11:9-86
-25-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\debug\AndroidManifest.xml:11:19-83
-26        <activity
-26-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:14:9-22:20
-27            android:name="com.zwallet.SplashActivity"
-27-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:15:13-43
-28            android:label="@string/app_name"
-28-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:17:13-45
-29            android:theme="@style/SplashTheme" >
-29-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:16:13-47
-30            <intent-filter>
-30-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:18:13-21:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:19:17-69
-31-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:19:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:20:17-77
-33-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:20:27-74
-34            </intent-filter>
-35        </activity>
-36        <activity
-36-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:24:7-35:18
-37            android:name="com.zwallet.MainActivity"
-37-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:25:9-37
-38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-38-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:27:9-86
-39            android:exported="true"
-39-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:30:9-32
-40            android:label="@string/app_name"
-40-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:26:9-41
-41            android:launchMode="singleTask"
-41-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:28:9-40
-42            android:windowSoftInputMode="adjustResize" >
-42-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:29:9-51
-43            <intent-filter>
-43-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:18:13-21:29
-44                <action android:name="android.intent.action.MAIN" />
-44-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:19:17-69
-44-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:19:25-66
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:20:17-77
-46-->C:\Users\JOJ_MSFT\Documents\GitHub\Zwallet\android\app\src\main\AndroidManifest.xml:20:27-74
-47            </intent-filter>
-48        </activity>
-49    </application>
-50
-51</manifest>
+13-->[com.facebook.flipper:flipper:0.93.0] /Users/chisom/.gradle/caches/transforms-3/8cf55bdce16a002612f05f30a64a017a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.93.0] /Users/chisom/.gradle/caches/transforms-3/8cf55bdce16a002612f05f30a64a017a/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->[:react-native-fs] /Users/chisom/Desktop/Zwallet/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+14-->[:react-native-fs] /Users/chisom/Desktop/Zwallet/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+15
+16    <application
+16-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:7:5-37:19
+17        android:name="com.zwallet.MainApplication"
+17-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:8:7-38
+18        android:allowBackup="false"
+18-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:12:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] /Users/chisom/.gradle/caches/transforms-3/d9b71328e8ba86dc125344804cb6eb44/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:10:7-41
+22        android:label="@string/app_name"
+22-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:9:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:11:7-52
+24        android:theme="@style/AppTheme"
+24-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:13:7-38
+25        android:usesCleartextTraffic="true" >
+25-->/Users/chisom/Desktop/Zwallet/android/app/src/debug/AndroidManifest.xml:8:9-44
+26        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+26-->/Users/chisom/Desktop/Zwallet/android/app/src/debug/AndroidManifest.xml:11:9-86
+26-->/Users/chisom/Desktop/Zwallet/android/app/src/debug/AndroidManifest.xml:11:19-83
+27        <activity
+27-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:14:9-22:20
+28            android:name="com.zwallet.SplashActivity"
+28-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:15:13-43
+29            android:label="@string/app_name"
+29-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:17:13-45
+30            android:theme="@style/SplashTheme" >
+30-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:16:13-47
+31            <intent-filter>
+31-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:18:13-21:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:19:17-69
+32-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:19:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:20:17-77
+34-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:20:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:24:7-35:18
+38            android:name="com.zwallet.MainActivity"
+38-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:25:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+39-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:27:9-86
+40            android:exported="true"
+40-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:30:9-32
+41            android:label="@string/app_name"
+41-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:26:9-41
+42            android:launchMode="singleTask"
+42-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:28:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:29:9-51
+44            <intent-filter>
+44-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:18:13-21:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:19:17-69
+45-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:19:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:20:17-77
+47-->/Users/chisom/Desktop/Zwallet/android/app/src/main/AndroidManifest.xml:20:27-74
+48            </intent-filter>
+49        </activity>
+50    </application>
+51
+52</manifest>
