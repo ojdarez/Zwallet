@@ -1,4 +1,5 @@
 import * as React from 'react';
+import MapView from 'react-native-maps';
 
 import {BarChart} from 'react-native-charts-wrapper';
 import {ScrollView,
@@ -70,6 +71,7 @@ export default function OrderScreen() {
             drawHighlightArrow={true}
           />
         </View>
+
       </View>
     );
 }
