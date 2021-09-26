@@ -1,0 +1,207 @@
+[
+  {
+    "StateName": "",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 11.7
+  },
+  {
+    "StateName": "AL",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 10.9
+  },
+  {
+    "StateName": "AR",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 8.1
+  },
+  {
+    "StateName": "AZ",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 19.80510204
+  },
+  {
+    "StateName": "CA",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 14.02832215
+  },
+  {
+    "StateName": "CO",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 15.01210526
+  },
+  {
+    "StateName": "CT",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 12.93333333
+  },
+  {
+    "StateName": "DC",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 8.3
+  },
+  {
+    "StateName": "FL",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 16.81477516
+  },
+  {
+    "StateName": "GA",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 14.98284314
+  },
+  {
+    "StateName": "HI",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 8.7
+  },
+  {
+    "StateName": "IA",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 7.7
+  },
+  {
+    "StateName": "ID",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 21.9
+  },
+  {
+    "StateName": "IL",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 8.9
+  },
+  {
+    "StateName": "IN",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 9.227272727
+  },
+  {
+    "StateName": "KS",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 10.6
+  },
+  {
+    "StateName": "KY",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 10.03947368
+  },
+  {
+    "StateName": "LA",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 7.85
+  },
+  {
+    "StateName": "MA",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 11.63333333
+  },
+  {
+    "StateName": "MD",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 8.2
+  },
+  {
+    "StateName": "MI",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 11.25
+  },
+  {
+    "StateName": "MN",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 8.166028708
+  },
+  {
+    "StateName": "MO",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 10.35
+  },
+  {
+    "StateName": "MS",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 10.8
+  },
+  {
+    "StateName": "NC",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 21.76296296
+  },
+  {
+    "StateName": "NE",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 10
+  },
+  {
+    "StateName": "NM",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 14
+  },
+  {
+    "StateName": "NV",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 13.63561644
+  },
+  {
+    "StateName": "NY",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 10.16
+  },
+  {
+    "StateName": "OH",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 12.49259259
+  },
+  {
+    "StateName": "OK",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 10.13235294
+  },
+  {
+    "StateName": "OR",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 12.7122449
+  },
+  {
+    "StateName": "PA",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 11.15
+  },
+  {
+    "StateName": "RI",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 14.6
+  },
+  {
+    "StateName": "SC",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 13.57083333
+  },
+  {
+    "StateName": "TN",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 14.4317757
+  },
+  {
+    "StateName": "TX",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 14.88542857
+  },
+  {
+    "StateName": "UT",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 16.7
+  },
+  {
+    "StateName": "VA",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 9.65
+  },
+  {
+    "StateName": "WA",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 12.98846154
+  },
+  {
+    "StateName": "WI",
+    "AvgOfForecastedDate": "31-Aug-22",
+    "AvgOfForecastYoyPctChange": 8.243478261
+  }
+]
