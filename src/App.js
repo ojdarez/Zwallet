@@ -6,25 +6,26 @@ import 'react-native-gesture-handler';
 import { enableScreens } from 'react-native-screens';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-//import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import SplashScreen from 'react-native-splash-screen';
 import SignInScreen from './Screens/AppEntry/SignInScreen';
 import SignUpScreen from '../src/Screens/AppEntry/SignUpScreen'; 
 import TabNavigationRoutes from './Screens/Navs/TabNavigationRoutes';
+import SetUp from './Screens/FirstTime/AccountType';
 
 
 enableScreens(true);
 const Stack = createStackNavigator();
 
-// const routeNav = async () => {
-//   try {
-//     const jsonValue = await AsyncStorage.getItem('@user_id')
-//     return jsonValue != null ? "TabNavigationRoutes" : "Auth";
-//   } catch(e) {
-//     console.log("Can't route after splash screen!")
-//   }
-// }
+const routeNav = async () => {
+  try {
+    const jsonValue = await AsyncStorage.getItem('@user_id')
+    return jsonValue !== null ? "TabNavigationRoutes" : "Auth";
+  } catch(e) {
+    console.log("Can't route after splash screen!")
+  }
+}
 
 
 const Auth = () => {
@@ -72,6 +73,11 @@ const App = () => {
         <Stack.Screen
           name = "Auth"
           component = {Auth}
+          options = {{headerShown: false}}
+        />
+        <Stack.Screen 
+          name = "Set Up"
+          component = {SetUp}
           options = {{headerShown: false}}
         />
         {/* Navigation Tabs as a landing page */}

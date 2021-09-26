@@ -13,6 +13,7 @@ const BottomTab = createBottomTabNavigator();
 
 const TabNavigationRoutes = () => {
     const Zest_Blue = "#2196f3"
+    const Zest_Gold = "#DA962F"
     const Zest_Silver = "#C0C0C0"
     const Zest_Purple = "#219"
     
@@ -24,9 +25,9 @@ const TabNavigationRoutes = () => {
                     if (route.name === 'Home') {
                         return (
                             <Ionicons
-                                name={focused ? 'ios-home-outline' : 'md-home'}
+                                name={focused ? 'md-home' : 'ios-home-outline'}
                                 size={size}
-                                color={focused ? Zest_Purple : Zest_Silver}
+                                color={focused ? Zest_Blue : Zest_Silver}
                             />
                         );
                     } else if (route.name === 'Manage') {
@@ -54,7 +55,7 @@ const TabNavigationRoutes = () => {
         >
             <BottomTab.Screen name="Manage" component={ManageScreen}/>
             <BottomTab.Screen name="Home" component={HomeScreen} />
-            <BottomTab.Screen name="Insights" component={InsightsScreen} options={{ tabBarBadge: 3 }}/>
+            <BottomTab.Screen name="Insights" component={InsightsScreen} options={{ tabBarBadge: 3, tabBarBadgeStyle: {backgroundColor: '#EB0808'} }}/>
         </BottomTab.Navigator>
     );
 };

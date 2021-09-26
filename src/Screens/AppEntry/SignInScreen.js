@@ -3,13 +3,17 @@ import { useNavigation } from '@react-navigation/native';
 
 import {
     StyleSheet, TextInput, View, Text, 
-    ScrollView, Image, Keyboard, Button,
+    ScrollView, Image, Keyboard, Button, Platform,
     TouchableOpacity, KeyboardAvoidingView, TouchableOpacityBase,
 } from 'react-native';
 
 //import AsyncStorage from '@react-native-async-storage/async-storage'
 
+import SetUp from '../FirstTime/AccountType';
 import Loader from '../Components/LoaderAnimated';
+import Entypo from 'react-native-vector-icons/Entypo';
+import Ant from 'react-native-vector-icons/AntDesign';
+import LinearGradient from 'react-native-linear-gradient';
 
 const SignInScreen = ({props}) => {
     const [userEmail, setUserEmail] = useState('');
@@ -93,10 +97,10 @@ const SignInScreen = ({props}) => {
                         onPress = {() => navigation.navigate('TabNavigationRoutes') }//TODO
                     > Forgot Password? 
                     </Text>
-                    <TouchableOpacity
+                    <TouchableOpacity 
                         style={styles.buttonStyle}
                         activeOpacity={0.5}
-                        onPress = {handleSubmitPress}
+                        onPress = {() => navigation.navigate('Set Up') }//{handleSubmitPress}
                     >
                         <Text style={styles.buttonTextStyle}>CONNECT</Text>
                     </TouchableOpacity>
@@ -107,6 +111,30 @@ const SignInScreen = ({props}) => {
                         <Text style={{width: 100, textAlign: 'center', fontStyle: 'italic'}}>or Login via</Text>
                     </View>
                     <View style={{flex: 1, height: 1, backgroundColor: 'black'}} />
+                </View>
+                <View style = {{flexDirection: 'row', marginVertical: 15, marginHorizontal: 50}}> 
+                    <TouchableOpacity onPress={() => {}} style = {{flexDirection: 'row', alignItems: 'center', borderColor: 'blue', borderWidth: 1, borderRadius: 15, width: 100}}>
+                        <Entypo name = 'facebook-with-circle' size = {15} color = 'blue'/> 
+                        <Text style = {{color: 'blue', marginHorizontal: 5, fontWeight: 'bold'}}>FACEBOOK</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity 
+                        onPress={() => {}} 
+                        style = {{flexDirection: 'row', alignItems: 'center', borderColor: 'blue', borderWidth: 1, borderRadius: 15, width: 100, marginLeft: 10}}
+                    >
+                        <Ant name = 'google' size = {15} /> 
+                        <View style = {{marginHorizontal: 5, flexDirection: 'row'}}>
+                            <Text style = {{color: '#4285F4', fontWeight: 'bold'}}>G</Text>
+                            <Text style = {{color: '#DB4437', fontWeight: 'bold'}}>O</Text>
+                            <Text style = {{color: '#F4B400', fontWeight: 'bold'}}>O</Text>
+                            <Text style = {{color: '#4285F4', fontWeight: 'bold'}}>G</Text>
+                            <Text style = {{color: '#0F9D58', fontWeight: 'bold'}}>L</Text>
+                            <Text style = {{color: '#DB4437', fontWeight: 'bold'}}>E</Text>
+                        </View>
+                    </TouchableOpacity>
+                </View>
+                <View style = {{flexDirection: 'row', marginVertical: 15, marginHorizontal: 50}}>
+                    <Text style = {{fontSize: 15}}>Don't have an account?</Text>
+                    <Text style = {{color: '#9C27b0', marginLeft: 8, fontSize: 15}}>SignUp</Text>
                 </View>
             </ScrollView>
         </View>
@@ -137,12 +165,12 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start'
     },
     welcome: {
-        fontFamily: 'notoserif',
+        fontFamily: Platform.OS === 'ios' ? 'AvenirNext-MediumItalic' : 'notoserif',
         fontSize: 18,
         color: '#757575'
     },
     pageName: {
-        fontFamily: 'serif',
+        fontFamily: Platform.OS === 'ios' ? 'San Francisco' : 'serif',
         fontSize: 40,
         color: "#000000"
     },
