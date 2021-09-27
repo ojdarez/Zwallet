@@ -12,7 +12,7 @@
  
 ## Equitable mortgage process == Z-Wallet.
  
-Buying, selling and renting a home can be a complicated and confusing process. We at Z-Wallet simplify that process. That's why **Z-Wallet** personalized each person's experience. Using the ML approach for Zillows [_Improved Quality Listing Text_](https://www.zillow.com/tech/improve-quality-listing-text/), we understand that user preferences can be utilized as input in making the HomeOwnership journey unique. Fine graining a user's choice, even up to *Quartz Countertops*. Thanks to the power of ML, these things are recognizable in images. 
+Buying, selling and renting a home can be a complicated and confusing process. We at Z-Wallet simplify that process. That's why **Z-Wallet** personalizes each person's experience. Using the ML approach for Zillows [_Improved Quality Listing Text_](https://www.zillow.com/tech/improve-quality-listing-text/), we understand that user preferences can be utilized as input in making the HomeOwnership journey unique. Fine graining a user's choice, even up to *Quartz Countertops*. Thanks to the power of ML, these things are recognizable in images. 
 > Z_Wallet accepts categorized inputs from user. 
 
 ![Location](https://photos.app.goo.gl/8zTW9GLnYqt3Y6Eo8)
@@ -36,8 +36,13 @@ Buying, selling and renting a home can be a complicated and confusing process. W
    - Amenities listings. 
    - *Fine grained choices* {Hardwood floors, Front Porch, Medium Sized Backyards.}
    - K-12 School performance around selected location preferences.
-
-Z_Wallet accepts categorized inputs from user. 
+***
+As a user progresses in the journey of HomeOwnership, their integrity score, Z-score, is computed based on factors such as:
+- Current rental early payments, *if listed.* Why? Because things sych as these matter as regards to housing and amplifies an applicant's attitude as regards to money and housing.
+- Consistency in following up with saving towards goal
+- Cash flow, relative to assest: savings, salary, crypto assest *if listed*
+- Bill payments...
+***
  
 # FEATURES
 *** 
