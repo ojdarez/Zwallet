@@ -11,6 +11,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+<<<<<<< Updated upstream
 import com.airbnb.android.react.maps.MapsPackage;
 
 import com.rnfs.RNFSPackage;
