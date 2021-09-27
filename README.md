@@ -24,7 +24,8 @@ Buying, selling and renting a home can be a complicated and confusing process. W
    - > This filter is made specific to the inputs from Lines 1 & 2 above.
 4. Commute Preferences.
 5. Additional features.
-   - Amenities listings.
+   - Amenities listings. 
+   - *Fine grained choices* {Hardwood floors, Front Porch, Medium Sized Backyards.}
    - K-12 School performance around selected location preferences.
 
 Z_Wallet accepts categorized inputs from user. 
