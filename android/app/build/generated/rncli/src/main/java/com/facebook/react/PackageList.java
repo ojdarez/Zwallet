@@ -15,16 +15,26 @@ import java.util.ArrayList;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
+<<<<<<< Updated upstream
 // react-native-charts-wrapper
 import com.github.wuxudong.rncharts.MPAndroidChartPackage;
 // react-native-fs
 import com.rnfs.RNFSPackage;
+=======
+// @react-native-community/viewpager
+import com.reactnativecommunity.viewpager.RNCViewPagerPackage;
+>>>>>>> Stashed changes
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-linear-gradient
 import com.BV.LinearGradient.LinearGradientPackage;
+<<<<<<< Updated upstream
 // react-native-maps
 import com.airbnb.android.react.maps.MapsPackage;
+=======
+// react-native-pager-view
+import com.reactnativepagerview.PagerViewPackage;
+>>>>>>> Stashed changes
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
@@ -33,6 +43,8 @@ import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-splash-screen
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
+// react-native-text-gradient
+import iyegoroff.RNTextGradient.RNTextGradientPackage;
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
 
@@ -82,15 +94,23 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
       new RNCMaskedViewPackage(),
+<<<<<<< Updated upstream
       new MPAndroidChartPackage(),
       new RNFSPackage(),
       new RNGestureHandlerPackage(),
       new LinearGradientPackage(),
       new MapsPackage(),
+=======
+      new RNCViewPagerPackage(),
+      new RNGestureHandlerPackage(),
+      new LinearGradientPackage(),
+      new PagerViewPackage(),
+>>>>>>> Stashed changes
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
       new SplashScreenReactPackage(),
+      new RNTextGradientPackage(),
       new VectorIconsPackage()
     ));
   }

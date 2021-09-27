@@ -15,6 +15,8 @@ import com.airbnb.android.react.maps.MapsPackage;
 
 import com.rnfs.RNFSPackage;
 
+=======
+>>>>>>> Stashed changes
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost =
@@ -64,7 +66,7 @@ public class MainApplication extends Application implements ReactApplication {
     if (BuildConfig.DEBUG) {
       try {
         /*
-         We use reflection here to pick up the class that initializes Flipper,
+        We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
         Class<?> aClass = Class.forName("com.zwallet.ReactNativeFlipper");
