@@ -16,12 +16,20 @@ Buying, selling and renting a home can be a complicated and confusing process. W
  
 # FEATURES
 *** 
-##### **-> Z-Score**: A new metric standard for measuring user applicant's integrity.
-##### **-> Wallet**: For saving towards down payment for your dream home.
-##### **-> Matches**: Current homes available in the market based on user seeting preference | availabe funds & monetary goal.
-#### **-> Views**: Mapped out layout to visualize geographical options of dream homes.
-#### **-> Insight**: Additional information into spending patterns and opportunities available to fast track Homeownership. 
-> Powered by: Zestimate API
+#### **-> Z-Score**: A new metric standard for measuring user applicant's integrity.
+> Powered by: Zillow && HUD && JPMorgan Chase (Hopefully 🤞🏽)
+#### **-> Metric Indicator**: Progress bar indicator how close a user is to dream.
+> Powered by: Zestimate API && Zillow Group Econ Data
+#### **-> Wallet**: For saving towards down payment for your dream home.
+> Powered by: MasterCard && Plaid 
+#### **-> Matches**: Current homes available in the market based on user's personalized setting preference | availabe funds & monetary goal.
+> Powered by: Bridge Web API, Public Data && Google Firebase
+##### **-> Views**: Mapped out layout to visualize geographical options of dream homes.
+> Powered by: 
+##### **-> Insight**: Additional information into spending patterns and opportunities available to fast track Homeownership. 
+> Powered by: Zestimates API
+##### **-> Manage**: Make changes to preferences and goal adjustments. Additional feats. (Push notification)
+> Powered by: Amazon Web Services.
 ***
  
 # Z-Wallet. Realize Your Dreams.
