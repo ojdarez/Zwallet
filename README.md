@@ -6,9 +6,9 @@
  Your Dreams, Your wallet, Your Reality.
  
 ## **Questions**:
+###### How to do we mitigate the biases in the credit system?**
 ###### How do we bridge the gap in Homeownership especially among communities of color?
-###### How do we ensure that the journey to homeownership is one of convenience?
-###### How to do we cater to credible applicants with **__non-existential credits?__**
+###### How do we ensure that the journey to homeownership is one of convenience and foresight?
  
 ## OUR SOLUTION.
  
