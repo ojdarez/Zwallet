@@ -23,24 +23,21 @@ Buying, selling and renting a home can be a complicated and confusing process. W
 
 
 > During the Hack, we the Zestful team made use of the Bridge Web API Explorer Custom Query to filter specific field. Level of importance was scaled thus: 
-1. Money Goal 
-> What range are you looking to put down for down payment?
-2. Housing Location Prefrences.
-   - State Locations.
-   - City Specifics. 
-3. Housing Specifications.
-   - How many {Bedrooms, Bathrooms, ...} ?
-   - > This filter is made specific to the inputs from Lines 1 & 2 above.
-4. Commute Preferences.
-5. Additional features.
-   - Amenities listings. 
-   - *Fine grained choices* {Hardwood floors, Front Porch, Medium Sized Backyards.}
-   - K-12 School performance around selected location preferences.
+Input your Bank Information --> Track your cashflows -->  Save for a home --> and get real-time infomation about the real estate market in your preferred geogrpahical location.
+
+1. Cashflow: Your net cashflow is a combination of all your financial info e.g Bank Income/expenses, Assets, etc
+2. Recuring expenses e.g Rent - Positively impacts your Zscore metric, but is optional.
+3. (Saving in Z-fund)- Saving in Z-funds for a downpayment positively impacts your Zscore metric, but is optional.
+4. Insights:
+Uses your savings to predict how long it will take you to afford a downpayment in your dream location e.g State, City, etc(using Zestimate)
+   Extra features: Housing Specifications.
+      - How many {Bedrooms, Bathrooms, ...} ?
 ***
-As a user progresses in the journey of HomeOwnership, their integrity score, Z-score, is computed based on factors such as:
-- Current rental early payments, *if listed.* Why? Because things sych as these matter as regards to housing and amplifies an applicant's attitude as regards to money and housing.
-- Consistency in following up with saving towards goal
-- Cash flow, relative to assest: savings, salary, crypto assest *if listed*
+As a user progresses in the journey of HomeOwnership, their integrity score, **Z-score**, is computed based on factors such as:
+
+- Timelineess rental early payments, *if listed.* Why? Because things sych as these matter as regards to housing and amplifies an applicant's attitude as regards to money and housing. 40% of Z-score
+- Consistency in following up with saving towards goal. 35% of Z-score.
+- Cash flow, relative to assest: savings, salary, crypto assest. 30% of Z-score. *if listed* 
 - Bill payments...
 ***
  
@@ -49,7 +46,7 @@ As a user progresses in the journey of HomeOwnership, their integrity score, Z-s
 #### **-> Z-Score**: A new metric standard for measuring user applicant's integrity.
 > Powered by: Zillow && HUD && JPMorgan Chase (Hopefully 🤞🏽)
 #### **-> Metric Indicator**: Progress bar indicator how close a user is to dream.
-> Powered by: Zestimate API && Zillow Group Econ Data
+> Powered by: Zestimate API && Zillow Group Econ Data, and Personal Bank data.
 #### **-> Wallet**: For saving towards down payment for your dream home.
 > Powered by: MasterCard && Plaid 
 #### **-> Matches**: Current homes available in the market based on user's personalized setting preference | availabe funds & monetary goal.
@@ -61,5 +58,13 @@ As a user progresses in the journey of HomeOwnership, their integrity score, Z-s
 ##### **-> Manage**: Make changes to preferences and goal adjustments. Additional feats. (Push notification)
 > Powered by: Amazon Web Services.
 ***
+
+
+# CODE
+*** 
+#### **-> Zwallet/src .
+#### **-> Zwallet/Android .
+***
+ 
  
 # Z-Wallet. Realize Your Dreams.
