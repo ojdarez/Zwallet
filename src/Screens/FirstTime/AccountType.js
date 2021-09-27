@@ -53,15 +53,11 @@ export default function SetUp({navigation}) {
                 This will help personalize your recommendations and make your experience fitted to
                 achieve your goals faster. This setting can be chenged in your managed tab.
             </Text>
-            <TouchableOpacity onPress = {() => navigation.navigate('TabNavigationRoutes') } > 
-                <LinearGradient
-                    style={styles.nextButton}
-                    start={{ x: 0, y: 0 }}
-                    end={{x: 1, y: 1 }}
-                    colors={['#5851DB', '#C13584', '#E1306C', '#FD1D1D', '#F77737']}
-                >
-                    <Text style = {{fontWeight: 'bold', color: 'white', fontSize: 18, alignSelf: 'center', alignContent: 'center'}}>NEXT</Text>
-                </LinearGradient>
+            <TouchableOpacity 
+            onPress = {() => navigation.navigate('TabNavigationRoutes') } 
+            style={styles.nextButton}
+            > 
+                <Text style = {{fontWeight: 'bold', color: 'white', fontSize: 18, alignSelf: 'center', alignContent: 'center'}}>NEXT</Text>
             </TouchableOpacity>
         </View>
     );
@@ -145,7 +141,7 @@ const styles = StyleSheet.create({
     buttonTextStyle: {
         color: 'black',
         fontSize: 16,
-        alignSelf: 'center',
+        alignSelf: 'auto',
         paddingHorizontal: 5,
         paddingVertical: 5   
     },
@@ -155,7 +151,8 @@ const styles = StyleSheet.create({
         height: 40,
         borderRadius: 10,
         paddingVertical: 10,
-        backgroundColor: '#f0ffff',
+        alignSelf: 'auto',
+        backgroundColor: 'blue',
         alignContent: 'flex-start'
     }
 });

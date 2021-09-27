@@ -1,0 +1,4 @@
+#Sun Sep 26 16:45:21 EDT 2021
+base.0=C\:\\Users\\JOJ_MSFT\\Documents\\GitHub\\Zwallet\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

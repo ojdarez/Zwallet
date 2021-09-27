@@ -1,0 +1,11 @@
+com/zwallet/BuildConfig.java
+ com.zwallet.BuildConfig
+com/zwallet/SplashActivity.java
+ com.zwallet.SplashActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/zwallet/MainApplication.java
+ com.zwallet.MainApplication
+ com.zwallet.MainApplication$1
+com/zwallet/MainActivity.java
+ com.zwallet.MainActivity

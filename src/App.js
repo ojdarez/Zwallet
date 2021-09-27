@@ -67,7 +67,7 @@ const App = () => {
   }, []);
   
   return (
-    <NavigationContainer initialRouteName = 'Auth' >
+    <NavigationContainer initialRouteName = 'Auth' independent = {true} >
       <Stack.Navigator> 
         {/* Auth Navigator: Include Login and Signup */}
         <Stack.Screen
