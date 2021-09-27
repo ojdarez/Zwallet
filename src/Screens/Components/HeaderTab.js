@@ -26,6 +26,7 @@ const Header = props => {
                     <View>
                         <Text
                         style={{
+                            marginHorizontal: 5,
                             fontSize: 17,
                             textTransform: "uppercase",
                             color: `${tintColor}`,
@@ -45,7 +46,6 @@ const Header = props => {
 
 const styles = StyleSheet.create({
     containerHeader: {
-        flex: 1,
         flexDirection: "column",
         justifyContent: "space-between",
         alignItems: "center",
