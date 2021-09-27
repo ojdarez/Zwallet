@@ -19,7 +19,7 @@ Buying, selling and renting a home can be a complicated and confusing process. W
 
 ![Neighbourhood](https://photos.app.goo.gl/tYdx3v4hi1mwvLUS8)
 
-![Features](https://photos.app.goo.gl/YNQ1SEWWKJmCz6mg8)
+![Features ...](https://photos.app.goo.gl/YNQ1SEWWKJmCz6mg8)
 
 
 > During the Hack, we the Zestful team made use of the Bridge Web API Explorer Custom Query to filter specific field. Level of importance was scaled thus: 
