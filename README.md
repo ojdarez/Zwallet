@@ -1,9 +1,7 @@
 # Z-Wallet
  An innovative production of the Zestful team. Zillow 2021 Hackathon.
  Zillow’s mission is to give people the power to unlock life’s next chapter. Z-Wallet achieves this by providing an equal ground for all to build their dream on.
- 
-## SLOGAN
- Your Dreams, Your wallet, Your Reality.
+
  
 ## **Questions**:
 ###### How to do we mitigate the biases in the credit system?
