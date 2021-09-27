@@ -13,6 +13,15 @@
 ## Equitable mortgage process == Z-Wallet.
  
 Buying, selling and renting a home can be a complicated and confusing process. We at Z-Wallet simplify that process. That's why **Z-Wallet** personalized each person's experience. Using the ML approach for Zillows [_Improved Quality Listing Text_](https://www.zillow.com/tech/improve-quality-listing-text/), we understand that user preferences can be utilized as input in making the HomeOwnership journey unique. Fine graining a user's choice, even up to *Quartz Countertops*. Thanks to the power of ML, these things are recognizable in images. 
+> Z_Wallet accepts categorized inputs from user. 
+
+![Location](https://photos.app.goo.gl/8zTW9GLnYqt3Y6Eo8)
+
+![Neighbourhood](https://photos.app.goo.gl/tYdx3v4hi1mwvLUS8)
+
+![Features](https://photos.app.goo.gl/YNQ1SEWWKJmCz6mg8)
+
+
 > During the Hack, we the Zestful team made use of the Bridge Web API Explorer Custom Query to filter specific field. Level of importance was scaled thus: 
 1. Money Goal 
 > What range are you looking to put down for down payment?
