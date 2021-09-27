@@ -14,7 +14,18 @@
  
 Buying, selling and renting a home can be a complicated and confusing process. We at Z-Wallet simplify that process. That's why **Z-Wallet** personalized each person's experience. Using the ML approach for Zillows [_Improved Quality Listing Text_](https://www.zillow.com/tech/improve-quality-listing-text/), we understand that user preferences can be utilized as input in making the HomeOwnership journey unique. Fine graining a user's choice, even up to *Quartz Countertops*. Thanks to the power of ML, these things are recognizable in images. 
 > During the Hack, we the Zestful team made use of the Bridge Web API Explorer Custom Query to filter specific field. Level of importance was scaled thus: 
-
+1. Money Goal 
+> What range are you looking to put down for down payment?
+2. Housing Location Prefrences.
+   - State Locations.
+   - City Specifics. 
+3. Housing Specifications.
+   - How many {Bedrooms, Bathrooms, ...} ?
+   - > This filter is made specific to the inputs from Lines 1 & 2 above.
+4. Commute Preferences.
+5. Additional features.
+   - Amenities listings.
+   - K-12 School performance around selected location preferences.
 
 Z_Wallet accepts categorized inputs from user. 
  
