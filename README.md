@@ -40,6 +40,13 @@ As a user progresses in the journey of HomeOwnership, their integrity score, **Z
 - Cash flow, relative to assest: savings, salary, crypto assest. 30% of Z-score. *if listed* 
 - Bill payments...
 ***
+
+
+# MAIN CODE
+*** 
+#### -> Zwallet/src .
+#### -> Zwallet/Android .
+***
  
 # FEATURES
 *** 
@@ -58,13 +65,5 @@ As a user progresses in the journey of HomeOwnership, their integrity score, **Z
 ##### **-> Manage**: Make changes to preferences and goal adjustments. Additional feats. (Push notification)
 > Powered by: Amazon Web Services.
 ***
-
-
-# CODE
-*** 
-#### **-> Zwallet/src .
-#### **-> Zwallet/Android .
-***
- 
  
 # Z-Wallet. Realize Your Dreams.
